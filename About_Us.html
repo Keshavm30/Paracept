@@ -1,11 +1,11 @@
 <html>
     <head>
-<TITLE>Paracept| Pramodo-al-phuko Cpowder Kit</TITLE>
+<TITLE>Paracept</TITLE>
 
-<meta property="og:title" content="Buy Pramodo-al-phuko Cpowder Kit" />
+<meta property="og:title" content="Paracept" />
 <meta property="og:url" content="https://keshavm30.github.io/Paracept/" />
 <meta property="og:description" content="" />
-<meta property="og:image" content="images/Pramodo-al-phuko Cpowder.png" />
+<meta property="og:image" content="https://raw.githubusercontent.com/Keshavm30/Paracept/main/logo.png" />
 
 <STYLE>
 TABLE{background-repeat:no-repeat}
@@ -73,35 +73,12 @@ Achover(background-color.red) TD padding-left:15px)
          }
   //edit: removed ";" from last "}" because of javascript error
   </script>
-
-<style>
-    .button {
-      border: none;
-      color: white;
-      padding: 16px 32px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
-      margin: 4px 2px;
-      transition-duration: 0.4s;
-      cursor: pointer;
-    }
-    
-    .button1 {
-      background-color: white; 
-      color: black; 
-      border: 3px solid #008CBA;
-    }
-    
-    .button1:hover {
-      background-color: #008CBA;
-      color: white;
-    }
-    
-    </style>
-
-
+  <style>
+    .text{
+        padding:20px;
+        color:rgb(255, 255, 255)
+        }
+  </style>
 </HEAD>
 
 <BODY Link = "Red" link="GREY" alink="blue" border=1 bgcolor="black"> <TABLE width="100%" height-5 bgcolor="black">
@@ -165,66 +142,20 @@ Achover(background-color.red) TD padding-left:15px)
     
     </TABLE> 
     <br><br><br>
-    <div class="card">
-        <center>
-            <table>
-                <tr>
-                    <td><img src="dimages/Pramodo-al-phuko Cpowder.png" height="300" width="300"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                    <td><center><h2 style="color:rgb(255, 255, 255)">Pramodo-al-phuko Cpowder Kit</h2>
-                        <H3 style="color:rgb(255, 255, 255)">₹500</H3><br>
-                        <H3 style="color:rgb(255, 255, 255)">Get free dilevery on first order</H3>
-                        <button class="button button1" type="button" id="rzp-button1">BUY!</button>
-                    </center>
-                    </td>
-                </tr>
-            </table>
-        </center>
-        
-            <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
-            <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
-            <script>
-            var options = {
-                "key": "rzp_test_dCPBXp7qDyo2Hl", // Enter the Key ID generated from the Dashboard
-                "amount": "50000", // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
-                "currency": "INR",
-                "name": "Paracept",
-                "description": "Pramodo-al-phuko Cpowder Kit",
-                "image": "https://github.com/Keshavm30/Paracept/blob/main/logo.gif?raw=true",
-                //"order_id": "order_IluGWxBm9U8zJ8", //This is a sample Order ID. Pass the `id` obtained in the response of Step 1
-                "handler": function (response){
-                    // alert(response.razorpay_payment_id);
-                    // alert(response.razorpay_order_id);
-                    // alert(response.razorpay_signature)
-                    window.location.href = "Payment success.html";
-                },
-                "prefill": {
-                    "name": "",
-                    "email": "",
-                    "contact": ""
-                },
-                "notes": {
-                    "address": "Razorpay Corporate Office"
-                },
-                "theme": {
-                    "color": "#3399cc"
-                }
-            };
-            var rzp1 = new Razorpay(options);
-             rzp1.on('payment.failed', function (response){
-                       alert(response.error.code);
-            //         alert(response.error.description);
-            //         alert(response.error.source);
-            //         alert(response.error.step);
-            //         alert(response.error.reason);
-            //         alert(response.error.metadata.order_id);
-            //         alert(response.error.metadata.payment_id);
-            });
-            document.getElementById('rzp-button1').onclick = function(e){
-                rzp1.open();
-                e.preventDefault();
-            }
-            </script>
-      </div>
+    
+    <table>
+        <tr>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="logo.gif" alt="logo"></td>
+            <td><center><H2 class="text">About Us</H2>
+                <P class="text">We Are an Anonymous Organization Supporting One World Order We Hear We Stand to Ensure the well-being of The People We are a well-established team based in India. We sell Only Our Special Products safely to Our Customers for years. Stocks are replenished regularly and we keep them in a storeroom in Europe (that's why delivery is Quite Slow). We keep doing this business for years without any problem. You can read more about delivery and safety from the descriptions under the products. Also, if you have any other concerns or questions, you can send an e-mail, and we will be happy to help you.</P>
+                <H2 class="text">Info</H2>
+                <P class="text">When Will the Weapon/Accessories I Bought from Our Special Products King Arrive?
+                    Which Countries Can You Ship To?
+                    We Can Ship to All Countries. However, We Can Provide Faster Delivery to The Countries Listed Below. Our Target Region Is Europe. We Can Also Successfully Ship to Other Countries. But If You Are in The European Region, You Can Receive It Within 3 Days. Average Delivery Time for Other Regions</P>
+            </center>
+            </td>
+        </tr>
+    </table>
 </BODY>
 </HTML>
 </HTML>
